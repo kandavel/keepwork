@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5kC-l0-Kub">
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nearby.png" translatesAutoresizingMaskIntoConstraints="NO" id="2bc-1h-N6i">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="240" id="WFu-WS-3aC"/>
+                                            <constraint firstAttribute="height" constant="240" id="XF3-ap-2h9"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="2bc-1h-N6i" secondAttribute="trailing" id="5za-bk-wFu"/>
+                                    <constraint firstItem="2bc-1h-N6i" firstAttribute="leading" secondItem="5kC-l0-Kub" secondAttribute="leading" id="GPe-zU-Gf8"/>
+                                    <constraint firstItem="2bc-1h-N6i" firstAttribute="top" secondItem="5kC-l0-Kub" secondAttribute="top" id="XrA-Jz-jmN"/>
+                                    <constraint firstAttribute="bottom" secondItem="2bc-1h-N6i" secondAttribute="bottom" id="aob-D6-Lb9"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.83301767680000005" green="0.83301767680000005" blue="0.83301767680000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="5kC-l0-Kub" secondAttribute="trailing" constant="68" id="bLP-os-HsP"/>
+                            <constraint firstItem="5kC-l0-Kub" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="67" id="q3O-hz-nTh"/>
+                            <constraint firstItem="5kC-l0-Kub" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="193" id="v33-W6-ZFE"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="5kC-l0-Kub" secondAttribute="bottom" constant="214" id="xYo-zk-Pw8"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-109.375" y="-898.22666666666657"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="nearby.png" width="512" height="512"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>
